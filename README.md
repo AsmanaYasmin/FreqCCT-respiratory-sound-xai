@@ -1,5 +1,5 @@
 # FreqCCT: Multi-Representation Compact Convolutional Transformer for Respiratory Sound Classification with Explainable AI
-GitHub Repository Documentation & Execution Guide (README.md)
+
 1. Overview
 Respiratory diseases—including Chronic Obstructive Pulmonary Disease (COPD), asthma, and lower respiratory infections—are major global causes of morbidity and mortality. Traditional chest auscultation is subjective and depends heavily on physician experience and clinical environment acoustics. Automated auscultation systems based on deep learning can enable objective, accessible pulmonary screening.
 This repository presents FreqCCT, a lightweight, multi-representation Compact Convolutional Transformer architecture for automated respiratory sound classification using the ICBHI 2017 Benchmark and KAUH Respiratory Database (1,667 audio recordings across 7 disease classes). The framework stacks multi-frequency acoustic representations (Mel-spectrogram, Constant-Q Transform, and MFCC) and couples the transformer backbone with extensive Explainable AI (XAI) validation—including Grad-CAM, Attention Rollout, Integrated Gradients, and Exact Channel Shapley values—to provide clinically interpretable digital biomarker attributions.
